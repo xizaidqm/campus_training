@@ -1,7 +1,7 @@
 /**
  * @author: qiming
  * @date: 2021/11/2 17:32
- * @description:
+ * @description: 第一题：不重复定时器
  */
 
 import java.text.SimpleDateFormat;
@@ -23,7 +23,7 @@ public class NoRepeatTimer {
     /**
      * 存活时间
      */
-    private int aliveTime = 5;
+    private int aliveTime = 30;
 
     /**
      * 存放存活的数据，越靠近头部的进入时间越久
@@ -84,7 +84,7 @@ public class NoRepeatTimer {
         for (int i = 0; i < 10; i++) {
             try {
                 Thread.sleep(1000);
-                timer.reOrder(list, new MetaData(random.nextInt(10), System.currentTimeMillis()));
+                timer.reOrder(list, new MetaData(random.nextInt(100), System.currentTimeMillis()));
                 timer.printList(list);
             } catch (InterruptedException e) {
                 e.printStackTrace();
