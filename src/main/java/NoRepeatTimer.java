@@ -76,9 +76,6 @@ public class NoRepeatTimer {
         }
     }
 
-    git remote add origin git@github.com:xizaidqm/campus_training.git
-    git branch -M main
-    git push -u origin main
     public static void main(String[] args) {
         Random random = new Random();
         NoRepeatTimer timer = new NoRepeatTimer();
