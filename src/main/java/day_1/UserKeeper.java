@@ -1,4 +1,4 @@
-/**
+package day_1; /**
  * @author: qiming
  * @date: 2021/11/2 18:34
  * @description: 第二题
