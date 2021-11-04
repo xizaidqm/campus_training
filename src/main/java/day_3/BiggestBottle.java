@@ -9,7 +9,7 @@ public class BiggestBottle extends Decorator {
     Beverage beverage;
     DesEnums des;
 
-    public BiggestBottle(Beverage beverage){
+    public BiggestBottle(Beverage beverage) {
         this.beverage = beverage;
         des = DesEnums.BIGGESSTBOTTLE;
     }

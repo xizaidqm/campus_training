@@ -28,7 +28,7 @@ public class VanillaSyrup extends Decorator {
 
     @Override
     public double cost() {
-        return beverage.cost()+ getUnitPrice() * this.num;
+        return beverage.cost() + getUnitPrice() * this.num;
     }
 
 

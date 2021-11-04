@@ -15,6 +15,7 @@ public class HazelnutSyrup extends Decorator {
         des = DesEnums.HAZELNUMSYRUP;
         this.num = num;
     }
+
     @Override
     public String getDescription() {
         return beverage.getDescription() + " add " + this.num + "份" + des.name;
